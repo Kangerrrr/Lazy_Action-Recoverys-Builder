@@ -33,31 +33,6 @@ on:
         - boot
         - recovery
         - vendorboot
-      LDCHECK1:
-        description: 'Use LDCHECK'
-        required: false
-        default: 'false'
-        type: boolean
-      LDCHECK2:
-        description: 'Use LDCHECK'
-        required: false
-        default: 'false'
-        type: boolean
-      LDCHECK3:
-        description: 'Use LDCHECK'
-        required: false
-        default: 'false'
-        type: boolean
-      LDCHECK4:
-        description: 'Use LDCHECK'
-        required: false
-        default: 'false'
-        type: boolean
-      LDCHECK5:
-        description: 'Use LDCHECK'
-        required: false
-        default: 'false'
-        type: boolean
       LDCHECKPATH1:
         description: 'Path of blobs to check' # Use it know what kind of dependencies your missing for decryption blobs.
         required: true
